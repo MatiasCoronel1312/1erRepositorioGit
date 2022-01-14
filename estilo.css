@@ -42,7 +42,18 @@ nav li {
 
 nav a {
     color: rgb(0, 146, 172);
-}
+    transition: all 150ms ease-in-out;
+
+    border-radius: 0.3rem;
+ }
+ 
+ .navbar a:hover {
+
+    background-color: #141414;
+
+    padding: 1.5rem 2rem;
+
+ }   
 
 main {
     padding: 2rem;
@@ -56,6 +67,13 @@ main {
     margin: 1.5rem;
     border: 3px solid rgb(52, 110, 52);
     width: 40%;
+    transition: all 500ms ease-in-out;
+}
+
+.main img:hover {
+
+    transform: scale(1.1);
+
 }
 
 footer {
@@ -63,5 +81,19 @@ footer {
     color: rgb(177, 19, 19);
     border: 3px solid rgb(95, 226, 43);
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
+
+.footer div {
+    padding: 2rem 3rem;
+    transition: all 150ms ease-in-out;
+    border-radius: 0.3rem;
+ }
+ 
+ .footer div:hover {
+
+    background-color: #30da05;
+
+    padding: 2rem 5rem;
+
+ }   
